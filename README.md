@@ -98,9 +98,9 @@ The database model follows the snowflake schema, making it more granular for our
 
 Creating report to track HR Analytics : 
 - end-to-end development process
-- loaded 4 dimensions and one facts table onto power bi desktop 
-- Now we created data models / data modeling to ease the analysis process 
-- Modeling : Create a calculated date table ( mention the code used and explain each and every line of the code using chat gpt)
+- loaded 4 dimensions and one facts table onto Power BI desktop 
+- Now we created data models/data modeling to ease the analysis process 
+- Modeling: Create a calculated date table 
 - Connect each and every dimension tables to the respective facts or dimensions table to attain the logical flow and connections in the datamodel. 
 - Perform EDA and create new measures to calculate the attrition rate in the Atlas Lab 
 - Explain the formula for the Attrition rate ( here and add the card visuals screenshots)
@@ -130,33 +130,37 @@ Creating report to track HR Analytics :
 - We begin the analysis by examining high-level metrics to understand employee trends related to attrition.
 -  A new measures folder was created to organize all the measures developed during the reporting process.
 - Identified active and inactive employees using Employee[Attrition] and calculated the attrition rate.
-insert the DAX formula picture and the card viz ****
 
-- Attrition rate based on the previous measures. 
-- Identify the hiring trends overtime to identify where we can identify the biggest growth in new employees. 
+<img width="211" alt="image" src="https://github.com/user-attachments/assets/a7fc4987-20ac-4b95-90a8-b4f51661d223">
+
+
+- Attrition rate based on the previous measures.
+  
+<img width="209" alt="image" src="https://github.com/user-attachments/assets/805e32fb-b076-496c-85ec-c43075491140">
+
+ 
+- Identify the hiring trends over time to identify where we can identify the biggest growth in new employees. 
 insert the image here with the trends over time
 
 - Analyze, How the employees are working within each department and what is the job role that each department is commonly hiring. 
+<img width="931" alt="image" src="https://github.com/user-attachments/assets/5a727695-a372-4cb9-aad0-f05a434eaecc">
 
-insert the viz****
 
 
 ## The Role of Demographics and Their Impact on Performance
 
-- Histogram sorts the Emoployees by age. We create the age bins for our histgram using Power Query 
+- Histogram sorts the employees by age. We create the age bins for our histogram using Power Query 
 
-Insert the image of bins creation in power query ***
+Insert the image of bins creation in the power query ***
 Insert the histogram 
 
-- We modify the histogram, to understnad the data distribution across multiple Age bins and Gender
+- We modify the histogram, to understand the data distribution across multiple Age bins and Gender
 
 - Filter the visual to understand the status of the employee. (We add a page level filter)
 
-insert the final filtered image ( ***** ) that explains the data distribution across diff age groups and gender 
+- Marital Status and Ethnicity: We calculate the average salary of the employees based on their ethnicity
 
-- Marital Status and Ethnicity : We calculate the average salary of the employees based on their ethnicity
-
-Insert the image here *****
+<img width="944" alt="image" src="https://github.com/user-attachments/assets/6ed9489f-f67b-4d8b-9dd7-dbd0b8abcdb6">
 
 - Track individual employee's performances scores based on their yearly performance reviews and  individual performance reviews
 
@@ -169,10 +173,10 @@ Insert the performance trackers and the metrics used.
 
 Key Insights discovered 
 
-- % attrition rate : insert image and nuemricals ( for each department and job role)
-- % Attrition Rate Date  : attrition rate based on HireDate 
+- % attrition rate: insert image and nuemricals ( for each department and job role)
+- % Attrition Rate Date: attrition rate based on HireDate 
 - Conclude the department and the jobn role where immedidate attention is required by the Hr department to improve the process to reduce the customer churn in the respective areas. 
--  Other factors affecting the attrition rate and descrieb their metircs here 
+-  Other factors affecting the attrition rate and describing their metrics here 
 insert the visuals, " attrition by overtime requirement ", " Attrition by Tenure ", 
 
 
