@@ -112,15 +112,15 @@ Creating report to track HR Analytics :
 
 - In this scenario, we only have one facts table which is Performance Rating and the rest are classified as dimensions. 
 
-- Connect different data tables together in the form of snowflake schema using active and inactive relationships to attain the logical flow and connections in the datamodel. 
-
-- Insert the data model picture from power BI desktop ****
-
-- DATA MODELS : We create a calculated Date table using DAX code and connect it to the Employee table. 
+- Connect different data tables together in the form of snowflake schema using active and inactive relationships to attain the logical flow and connections in the datamodel.
 
 - Based on our requirements, We activate the relations between dimension tables. 
 
-- Insert the image of the DAX code used to create the date dimension. ****
+<img width="1354" alt="image" src="https://github.com/user-attachments/assets/fb1f6111-f7c9-446e-9281-bcf6cdfa7bbb">
+
+- DATA MODELS : We create a calculated Date table using DAX code and connect it to the Employee table. 
+
+<img width="765" alt="image" src="https://github.com/user-attachments/assets/3b714254-92d0-498d-bd3c-71ce6b48402e">
 
 
 
