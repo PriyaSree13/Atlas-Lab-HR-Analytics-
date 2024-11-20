@@ -13,7 +13,7 @@ We use the Kimball model approach to develop a Power BI report on HR analytics u
 ## Atlas Lab Dataset Overview :
 The database model follows the snowflake schema, making it more granular for our analysis. Refer the details given below for the metadata.  
 
-Insert the dataset picture here ****
+![image](https://github.com/user-attachments/assets/8d4a1ce4-aec2-4477-8f00-f8a14054d26e)
 
 #### Employee :
 
