@@ -94,16 +94,19 @@ The database model follows the snowflake schema, making it more granular for our
 - Create DAX Measures
 
 
-## Reporting process
+## Reporting Process Overview : 
 
 Creating report to track HR Analytics : 
-- end-to-end development process
-- loaded 4 dimensions and one facts table onto Power BI desktop 
-- Now we created data models/data modeling to ease the analysis process 
-- Modeling: Create a calculated date table 
-- Connect each and every dimension tables to the respective facts or dimensions table to attain the logical flow and connections in the datamodel. 
-- Perform EDA and create new measures to calculate the attrition rate in the Atlas Lab 
-- Explain the formula for the Attrition rate ( here and add the card visuals screenshots)
+- End-to-End Development Process:
+- Loaded four dimension tables and one fact table into Power BI Desktop
+- Created data models to streamline the analysis process
+- Modeling steps included:
+- Creating a calculated date table
+- Connecting all dimension tables to their respective fact or dimension tables to establish logical relationships in the data model
+- Performed Exploratory Data Analysis (EDA) and created new measures to calculate the attrition rate at Atlas Labs
+- The attrition rate formula:
+       Attrition Rate = (Number of Employees Who Left / Total Number of Employees) × 100"
+
 ## Pre-Processing and creating the Data Models: 
 
 - Firstly, We load our datasets into Power BI desktop and create relations between them. Decide and classify the existing tables as dimensions and facts. 
@@ -118,7 +121,7 @@ Creating report to track HR Analytics :
 
 <img width="1354" alt="image" src="https://github.com/user-attachments/assets/fb1f6111-f7c9-446e-9281-bcf6cdfa7bbb">
 
-- DATA MODELS : We create a calculated Date table using DAX code and connect it to the Employee table. 
+- DATA MODELS: We create a calculated Date table using the DAX code and connect it to the Employee table. 
 
 <img width="765" alt="image" src="https://github.com/user-attachments/assets/3b714254-92d0-498d-bd3c-71ce6b48402e">
 
@@ -128,7 +131,7 @@ Creating report to track HR Analytics :
 
 - Our main objective is to understand attrition at the company.
 - We begin the analysis by examining high-level metrics to understand employee trends related to attrition.
--  A new measures folder was created to organize all the measures developed during the reporting process.
+- A new measures folder was created to organize all the measures developed during the reporting process.
 - Identified active and inactive employees using Employee[Attrition] and calculated the attrition rate.
 
 <img width="211" alt="image" src="https://github.com/user-attachments/assets/a7fc4987-20ac-4b95-90a8-b4f51661d223">
@@ -151,34 +154,24 @@ insert the image here with the trends over time
 
 - Histogram sorts the employees by age. We create the age bins for our histogram using Power Query 
 
-Insert the image of bins creation in the power query ***
-Insert the histogram 
-
 - We modify the histogram, to understand the data distribution across multiple Age bins and Gender
 
-- Filter the visual to understand the status of the employee. (We add a page level filter)
+- Filter the visual to understand the status of the employee. (We add a page-level filter)
 
 - Marital Status and Ethnicity: We calculate the average salary of the employees based on their ethnicity
 
 <img width="944" alt="image" src="https://github.com/user-attachments/assets/6ed9489f-f67b-4d8b-9dd7-dbd0b8abcdb6">
 
-- Track individual employee's performances scores based on their yearly performance reviews and  individual performance reviews
+- Track individual employee's performances scores based on their yearly performance reviews and individual performance reviews. 
 
-Insert the performance trackers and the metrics used. 
-
-
-
-
-## Insights discovered and the final coheisve report 
+## Insights discovered
 
 Key Insights discovered 
 
-- % attrition rate: insert image and nuemricals ( for each department and job role)
-- % Attrition Rate Date: attrition rate based on HireDate 
-- Conclude the department and the jobn role where immedidate attention is required by the Hr department to improve the process to reduce the customer churn in the respective areas. 
--  Other factors affecting the attrition rate and describing their metrics here 
-insert the visuals, " attrition by overtime requirement ", " Attrition by Tenure ", 
+- Total Attrition Rate: 16.1%.  
+- The Sales department has the highest attrition rate, as Sales Representatives are more prone to churn with a 39.8% attrition rate.
+- Employees who have to travel frequently have the highest attrition rate, 24.9%. 
+- Employees with longer tenure are less likely to leave their companies.
 
 
 
-Insert the final report view*****
